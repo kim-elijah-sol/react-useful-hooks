@@ -1,0 +1,22 @@
+{
+  "name": "@kimelijahsol/react-useful-hooks",
+  "description": "A collection of useful React hooks",
+  "version": "0.0.1",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "kim-elijah-sol",
+    "email": "kimelijahsol@gmail.com"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "react": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+}
