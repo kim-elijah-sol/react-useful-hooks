@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@kimelijahsol/react-useful-hooks@workspace:.":
+"@kim-elijah-sol/react-useful-hooks@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@kimelijahsol/react-useful-hooks@workspace:."
+  resolution: "@kim-elijah-sol/react-useful-hooks@workspace:."
   dependencies:
     "@types/react": "npm:^18.2.43"
     react: "npm:^18.2.0"
