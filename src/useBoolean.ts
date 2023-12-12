@@ -1,7 +1,7 @@
 import { Dispatch, SetStateAction, useCallback, useState } from 'react'
 
 export function useBoolean(
-  defaultValue: boolean
+  defaultValue?: boolean
 ): [boolean, () => void, Dispatch<SetStateAction<boolean>>]
 export function useBoolean(defaultValue: boolean = false) {
   const [value, setValue] = useState(defaultValue)
