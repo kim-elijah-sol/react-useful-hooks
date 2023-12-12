@@ -22,7 +22,8 @@
   "packageManager": "yarn@4.0.2",
   "private": false,
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "rm -rf dist && mkdir dist && tsc"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
