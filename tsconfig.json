@@ -8,7 +8,8 @@
     "noImplicitAny": true,
     "target": "ESNext",
     "module": "ESNext",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "baseUrl": "./src"
   },
-  "include": ["./src/**/*.tsx", "./src/**/*.ts"]
+  "include": ["./src/*.tsx", "./src/*.ts"]
 }
