@@ -1,3 +1,7 @@
 .yarn
 src/
 tsconfig.json
+.vscode/
+.pnp.*
+.yarnrc.yml
+.prettierrc
