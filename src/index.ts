@@ -1,6 +1,7 @@
 export * from './useBoolean'
 export * from './useDebounce'
 export * from './useDebounceFn'
+export * from './useInterval'
 export * from './useIsMounted'
 export * from './useThrottle'
 export * from './useThrottleFn'
