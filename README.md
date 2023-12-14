@@ -1,6 +1,6 @@
 # react-useful-hooks
 
-## installation
+## 🚀 Installation
 
 ```shell
 $ npm install @kim-elijah-sol/react-useful-hooks
@@ -10,14 +10,13 @@ $ npm install @kim-elijah-sol/react-useful-hooks
 $ yarn add @kim-elijah-sol/react-useful-hooks
 ```
 
-## example
+## 📘 Hooks List
 
-```tsx
-import { useBoolean } from '@kim-elijah-sol/react-useful-hooks'
-
-function Component() {
-    const [bool, toggle, set] = useBoolean()
-
-    return ...
-}
-```
+- [`useBoolean`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useBoolean.md)
+- [`useDebounce`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useDebounce.md)
+- [`useDebounce`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useDebounceFn.md)
+- [`useInterval`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useInterval.md)
+- [`useScrollY`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useScrollY.md)
+- [`useThrottle`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useThrottle.md)
+- [`useThrottleFn`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useThrottleFn.md)
+- [`useTimeout`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useTimeout.md)
