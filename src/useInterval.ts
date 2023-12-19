@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { useIsMounted } from 'useIsMounted'
+import { useIsomorphicLayoutEffect } from 'useIsomorphicLayoutEffect'
 
 export interface Interval {
   cancel: () => void
@@ -11,13 +11,9 @@ export function useInterval(fn: () => void, interval = 300) {
 
   const timer = useRef<number>()
 
-  const isMounted = useIsMounted()
-
-  useEffect(() => {
-    if (isMounted) {
-      savedFn.current = fn
-    }
-  }, [isMounted, fn])
+  useIsomorphicLayoutEffect(() => {
+    savedFn.current = fn
+  }, [fn])
 
   useEffect(() => {
     timer.current = setInterval(() => {
