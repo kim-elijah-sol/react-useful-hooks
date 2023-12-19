@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { useIsMounted } from 'useIsMounted'
+import { useState } from 'react'
+import { useIsomorphicLayoutEffect } from 'useIsomorphicLayoutEffect'
 import { useThrottleFn } from 'useThrottleFn'
 
 export interface ScrollYOptions {
@@ -10,27 +10,23 @@ export function useScrollY(options?: ScrollYOptions): number
 export function useScrollY(options?: ScrollYOptions) {
   const [scrollY, setScrollY] = useState(0)
 
-  const isMounted = useIsMounted()
-
   const throttleFn = useThrottleFn(options?.throttle ?? 0)
 
-  useEffect(() => {
-    if (isMounted) {
-      function handleScroll() {
-        throttleFn.run(() => {
-          setScrollY(window.scrollY)
-        })
-      }
-
-      handleScroll()
-
-      window.addEventListener('scroll', handleScroll)
-
-      return () => {
-        window.removeEventListener('scroll', handleScroll)
-      }
+  useIsomorphicLayoutEffect(() => {
+    function handleScroll() {
+      throttleFn.run(() => {
+        setScrollY(window.scrollY)
+      })
     }
-  }, [isMounted])
+
+    handleScroll()
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
   return scrollY
 }
