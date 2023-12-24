@@ -1,4 +1,5 @@
 export * from './useBoolean'
+export * from './useComponentDidMound'
 export * from './useDebounce'
 export * from './useDebounceFn'
 export * from './useInterval'
