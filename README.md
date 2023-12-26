@@ -13,6 +13,7 @@ $ yarn add @kim-elijah-sol/react-useful-hooks
 ## 📘 Hooks List
 
 - [`useBoolean`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useBoolean.md)
+- [`useComponentDidMount`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useComponentDidMount.md)
 - [`useDebounce`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useDebounce.md)
 - [`useDebounceFn`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useDebounceFn.md)
 - [`useInterval`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useInterval.md)
