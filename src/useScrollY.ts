@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { useIsomorphicLayoutEffect } from 'useIsomorphicLayoutEffect'
-import { useThrottleFn } from 'useThrottleFn'
+import { useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect'
+import { useThrottleFn } from './useThrottleFn'
 
 export interface ScrollYOptions {
   throttle?: number

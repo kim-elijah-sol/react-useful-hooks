@@ -1,5 +1,5 @@
-import { useIsMounted } from 'useIsMounted'
-import { useIsomorphicLayoutEffect } from 'useIsomorphicLayoutEffect'
+import { useIsMounted } from './useIsMounted'
+import { useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect'
 
 export function useComponentWillUnmount(cleanup: () => void): void
 export function useComponentWillUnmount(cleanup: () => void) {

@@ -1,4 +1,4 @@
-import { useIsomorphicLayoutEffect } from 'useIsomorphicLayoutEffect'
+import { useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect'
 import { useIsMounted } from './useIsMounted'
 
 export function useComponentDidMound(callback: () => void): void
