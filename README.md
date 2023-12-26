@@ -14,6 +14,7 @@ $ yarn add @kim-elijah-sol/react-useful-hooks
 
 - [`useBoolean`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useBoolean.md)
 - [`useComponentDidMount`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useComponentDidMount.md)
+- [`useComponentWillUnmount`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useComponentWillUnmount.md)
 - [`useDebounce`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useDebounce.md)
 - [`useDebounceFn`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useDebounceFn.md)
 - [`useInterval`](https://github.com/kim-elijah-sol/react-useful-hooks/blob/main/src/useInterval.md)
